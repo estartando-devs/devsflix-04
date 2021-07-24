@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+img {
+  width: 100%;
+  max-width: 425px;
+}
+
+.content-play {
+  position: absolute;
+  left: 30px;
+  bottom: 250px;
+}
+
+.content-close {
+  position: absolute;
+  right: 20px;
+  top: 50px;
+}
+
+.image-close {
+  width: 37px;
+  height: 37px;
+}
+
+.content-title {
+  position: absolute;
+  bottom: 140px;
+  left: 30px;
+}
+
+.header-title {
+  color: #fff;
+  width: 200px;
+  font-size: 38px;
+}
+
+.content-genres {
+  position: absolute;
+  left: 30px;
+  bottom: 100px;
+}
+
+.genres {
+  color: #ffffff60;
+  font-size: 20px;
+}
+
+.content-button {
+  position: absolute;
+  left: 40px;
+  bottom: 20px;
+}
+
+#overlay {
+  position: absolute;
+  bottom: 0;
+}
