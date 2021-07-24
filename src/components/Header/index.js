@@ -4,7 +4,11 @@ import "./style.css";
 const Header = ({ title }) => {
   return (
     <div className="container">
-      <img src="/assets/images/background.png" alt="Background" />
+      <img
+        id="background"
+        src="/assets/images/background.png"
+        alt="Background"
+      />
       <img src="/assets/images/overlay.png" alt="overlay" id="overlay" />
       <div className="content-play">
         <img src="/assets/images/play.png" alt="play" />
