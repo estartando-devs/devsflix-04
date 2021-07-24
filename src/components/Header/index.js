@@ -14,7 +14,7 @@ const Header = ({ title }) => {
           src="/assets/images/close.png"
           alt="close"
           className="image-close"
-        />
+          />
       </div>
       <div className="content-title">
         <h1 className="header-title">{title}</h1>
@@ -26,7 +26,7 @@ const Header = ({ title }) => {
         <Button>Watch movie</Button>
       </div>
     </div>
-  );
-};
+    );
+  };
 
 export { Header };
