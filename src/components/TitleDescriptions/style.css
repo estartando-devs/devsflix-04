@@ -1,0 +1,24 @@
+.container-descriptions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 280px;
+  margin: 50px auto 20px auto;
+}
+
+.title-descriptions {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+
+img {
+  width: 37px;
+  height: 37px;
+}
+
+@media (max-width: 300px) {
+  .container-descriptions {
+    max-width: 240px;
+  }
+}
