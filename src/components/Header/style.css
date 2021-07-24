@@ -5,9 +5,10 @@
   position: relative;
 }
 
-img {
+#background {
   width: 100%;
   max-width: 425px;
+  height: 100%;
 }
 
 .content-play {
@@ -55,4 +56,6 @@ img {
 #overlay {
   position: absolute;
   bottom: 0;
+  height: 100%;
+  width: 100%;
 }

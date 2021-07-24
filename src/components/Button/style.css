@@ -1,7 +1,9 @@
 .button {
   height: 58px;
   border-radius: 17px;
-  width: 295px;
+  width: 100%;
+  max-width: 375px;
+  min-width: 260px;
   background: #6644b8;
   border: none;
   color: #fff;
@@ -14,10 +16,18 @@
 }
 
 .pink {
-  width: 295px;
+  width: 100%;
+  max-width: 295px;
+  min-width: 260px;
   background: #ff8fc6;
 }
 
 span {
   font-size: 12px;
+}
+
+@media (max-width: 280px) {
+  .button {
+    min-width: 180px;
+  }
 }
