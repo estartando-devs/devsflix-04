@@ -1,10 +1,13 @@
 import React from "react";
 import "./style.css";
 
-export const ImageQuality = () => {
+export const ImageQuality = (props) => {
+  const { resolution } = props;
   return (
-    <div className="quality-container">
-      <span className="image-resolution">720 p</span>
-    </div>
+    <section>
+      <div className="quality-container">
+        <span className="resolution">{resolution} p</span>
+      </div>
+    </section>
   );
 };

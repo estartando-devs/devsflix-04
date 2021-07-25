@@ -1,5 +1,5 @@
 .quality-container {
-  width: 89px;
+  width: 90px;
   height: 145px;
   background-color: #200f37;
   border-radius: 18px;
@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
 }
-.image-resolution {
+.resolution {
   font-weight: bold;
   font-size: 18px;
   color: #ffffff;
