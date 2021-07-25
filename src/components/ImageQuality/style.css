@@ -1,0 +1,20 @@
+.quality-container {
+  width: 89px;
+  height: 145px;
+  background-color: #200f37;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-resolution {
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.quality-container:hover {
+  border: 2px solid #ff8fc6;
+  box-sizing: border-box;
+  border-radius: 23px;
+}
