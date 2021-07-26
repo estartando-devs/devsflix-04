@@ -1,0 +1,75 @@
+.container-master {
+  width: 100%;
+  background-color: #26153d;
+  border-radius: 24px 24px 0 0;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rectangle {
+  width: 35px;
+  height: 5px;
+  background: #ffffff;
+  opacity: 0.1;
+  border-radius: 9px;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 23px;
+  font-weight: 500;
+  padding-right: 54px;
+  padding-top: 45px;
+}
+.text-quality {
+  color: #ffffff;
+  opacity: 0.5;
+  padding-top: 30px;
+}
+.container-image-quality {
+  width: 100%;
+  margin-top: 30px;
+  padding-left: 35px;
+}
+
+.content-image-quality {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+}
+
+.language-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-voice-acting {
+  color: #ffffff;
+  opacity: 0.5;
+  padding-top: 40px;
+  padding-bottom: 25px;
+}
+
+.container-input-language {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+.text-language {
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+}
+.input-check[type="checkbox"] {
+  width: 36px;
+  height: 36px;
+  background: #5442b6;
+  border-radius: 11px;
+}
+.container-button {
+  margin-right: 50px;
+  margin-top: 40px;
+}
