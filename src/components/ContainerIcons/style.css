@@ -1,0 +1,13 @@
+
+.container-icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    max-width: 375px;
+    min-width: 260px;
+}
+
+.icons {
+    width: 70px;
+    height: 70px;
+}
