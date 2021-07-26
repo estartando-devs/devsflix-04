@@ -1,4 +1,5 @@
 .button {
+  margin: 0 auto;
   height: 58px;
   border-radius: 17px;
   width: 100%;
@@ -16,7 +17,7 @@
 }
 
 .pink {
-  width: 100%;
+  
   max-width: 295px;
   min-width: 260px;
   background: #ff8fc6;
@@ -25,7 +26,11 @@
 span {
   font-size: 12px;
 }
-
+@media (max-width: 360px) {
+  .button {
+    max-width: 260px;
+  }
+}
 @media (max-width: 280px) {
   .button {
     min-width: 180px;

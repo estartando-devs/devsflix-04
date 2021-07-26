@@ -1,0 +1,52 @@
+
+.container-card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 0;
+    position: relative;
+}
+.img-card {
+    width: 340px;
+    height: 405px;
+    border-radius: 25px;
+}
+.filter-card {
+    width: 340px;
+    height: 405px;
+    border-radius: 25px;
+    position: absolute;
+}
+.container-title {
+    width: 250px;
+    display: flex;
+    text-align: center;
+    margin-bottom: 30px;
+
+    
+}
+.content-btn-title {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.title-catalog {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 600;
+    
+}
+@media (max-width:360px) {
+    .img-card {
+        max-width: 300px;
+    }
+    .filter-card {
+        max-width: 300px;
+    }
+}
