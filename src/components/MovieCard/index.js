@@ -1,4 +1,5 @@
 import "./style.css";
+import { Button } from "../Button";
 
 const MovieCard = ({ title, imgUrl, score, url, tags }) => {
     const Click = () => {
@@ -23,7 +24,7 @@ const MovieCard = ({ title, imgUrl, score, url, tags }) => {
                     }
                 </div>
             </div>
-            <span>{title}</span>
+            <span id="sub-title">{title}</span>
             <div className="container-rating">
 
                 <div className="container-stars">
