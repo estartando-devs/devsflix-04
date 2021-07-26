@@ -29,8 +29,8 @@ export const QualityAndVoiceSelection = () => {
       </div>
       <div className="container-image-quality">
         <div className="content-image-quality">
-          {optionResolution.map(({ resolution }) => (
-            <ImageQuality resolution={resolution} />
+          {optionResolution.map(({ resolution }, index) => (
+            <ImageQuality key={index} resolution={resolution} />
           ))}
         </div>
 
@@ -38,9 +38,9 @@ export const QualityAndVoiceSelection = () => {
           <p className="text-voice-acting">Voice acting</p>
         </div>
 
-        {languageVariations.map(({ language }) => {
+        {languageVariations.map(({ language }, index) => {
           return (
-            <div className="container-input-language">
+            <div className="container-input-language" key={index}>
               <span className="text-language">{language}</span>
               <>
                 <input className="input-check" type="checkbox"></input>
