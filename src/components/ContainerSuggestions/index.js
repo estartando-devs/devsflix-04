@@ -12,8 +12,6 @@ const Suggestions = ({ sectionTitle }) => {
                 <MovieCard title="Up" imgUrl="/assets/images/image37.png" score="8.6" url="/Up" tags={["new", "free"]} />
                 <MovieCard title="Seven pairs unclean" imgUrl="/assets/images/image35.png" score="7.6" url="/seven-pairs-unclean" tags={["free"]} />
 
-
-
             </div>
         </div>
     );
