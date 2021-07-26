@@ -1,4 +1,4 @@
-// import "./style.css";
+import "./style.css";
 
 const MovieCard = ({ title, imgUrl, score, url, tags }) => {
     const Click = () => {
