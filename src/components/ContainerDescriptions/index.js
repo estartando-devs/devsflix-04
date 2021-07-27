@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button } from "../Button";
 import "./style.css";
 
-const ContainerDescriptions = () => {
+const ContainerDescriptions = ({ descriptions }) => {
   const data = [
     {
       id: 0,
@@ -29,8 +29,7 @@ const ContainerDescriptions = () => {
       <div className="content-section-description">
         <h2 className="title-section-description">Description</h2>
         <p className="description-section">
-          Honoring Queen, their music and their outstanding vocalist Freddie
-          Mercury, who defied stereotypes and defeated conventio
+          {descriptions}
           {moreText ? " mais textos" : "..."}
           {moreText ? (
             <span id="more" onClick={() => setMoreText(false)}>

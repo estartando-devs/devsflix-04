@@ -1,11 +1,11 @@
 import { ContainerDescriptions } from "../../components/ContainerDescriptions";
 import { TitleDescriptions } from "../../components/TitleDescriptions";
 
-const SectionDescription = () => {
+const SectionDescription = ({ descriptions }) => {
   return (
     <>
       <TitleDescriptions title="Bohemian Rhapsody" />
-      <ContainerDescriptions />
+      <ContainerDescriptions descriptions={descriptions} />
     </>
   );
 };
