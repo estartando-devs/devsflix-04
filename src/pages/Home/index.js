@@ -42,6 +42,7 @@ const Home = () => {
           />
           <CatalogCard title="25,000 films and soap operas for free" />
           <SectionDescription
+            title={shows.name}
             descriptions={shows.summary
               .replace("<p>", "")
               .replace("<b>", "")
